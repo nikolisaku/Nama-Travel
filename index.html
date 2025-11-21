@@ -12,13 +12,16 @@
         <aside class="sidebar">
             <h2 class="logo">Nama Travel</h2>
             <nav>
-                <a href="#" class="active">Dashboard</a>
-
+            <a href="#" class="nav-link active" data-page="dashboard">Dashboard</a>
+            <a href="#" class="nav-link" data-page="deals">Deals</a>
+            <a href="#" class="nav-link" data-page="destinations">Destinations</a>
             </nav>
+
         </aside>
 
         <!-- MAIN CONTENT -->
         <main class="main">
+            <section id="dashboardPage" class="page-section">
             <header class="top">
                 <h1>TRAVEL PANEL</h1>
                 <p>Your dream destination is just a journey away!</p>
@@ -89,8 +92,94 @@
                     <button type="submit" class="btn">Add Reservation</button>
                 </form>
             </section>
-        </main>
-    </div>
+        </section>
+
+
+
+        <section id="dealsPage" class="page-section" style="display:none;">
+    <header class="top">
+        <h1>DEALS</h1>
+        <p>Special offers available now.</p>
+    </header>
+
+    <section class="cards">
+        <div class="card">
+            <p class="card-title">Rome Weekend</p>
+            <p class="card-value">199€</p>
+        </div>
+        <div class="card">
+            <p class="card-title">Paris Offer</p>
+            <p class="card-value">259€</p>
+        </div>
+        <div class="card">
+            <p class="card-title">Istanbul Trip</p>
+            <p class="card-value">149€</p>
+        </div>
+        <div class="card">
+            <p class="card-title">London Weekend</p>
+            <p class="card-value">249€</p>
+        </div>
+        <div class="card">
+            <p class="card-title">Barcelona Offer</p>
+            <p class="card-value">149€</p>
+        </div>
+        <div class="card">
+            <p class="card-title">Bora Bora</p>
+            <p class="card-value">2149€</p>
+        </div>
+        <div class="card">
+            <p class="card-title">Maldives</p>
+            <p class="card-value">1149€</p>
+        </div>
+    </section>
+</section>
+
+
+<section id="destinationsPage" class="page-section" style="display:none;">
+    <header class="top">
+        <h1>DESTINATIONS</h1>
+        <p>Explore popular travel destinations.</p>
+    </header>
+
+    <section class="cards">
+        <div class="card">
+            <p class="card-title">Paris</p>
+            <p class="card-value">France</p>
+        </div>
+        <div class="card">
+            <p class="card-title">Dubai</p>
+            <p class="card-value">UAE</p>
+        </div>
+        <div class="card">
+            <p class="card-title">Barcelona</p>
+            <p class="card-value">Spain</p>
+        </div>
+        <div class="card">
+            <p class="card-title">Rome</p>
+            <p class="card-value">Italy</p>
+        </div>
+        <div class="card">
+            <p class="card-title">London</p>
+            <p class="card-value">UK</p>
+        </div>
+        <div class="card">
+            <p class="card-title">Valencia</p>
+            <p class="card-value">Spain</p>
+        </div>
+        <div class="card">
+            <p class="card-title">Bari</p>
+            <p class="card-value">Italy</p>
+        </div>
+        <div class="card">
+            <p class="card-title">Stockholm</p>
+            <p class="card-value">Sweden</p>
+        </div>
+    </section>
+</section>
+
+
+    </main>
+</div>
 
     <script src="script.js"></script>
 
