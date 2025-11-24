@@ -1,3 +1,9 @@
+// Check if user came from deals page
+const selectedDeal = localStorage.getItem("selectedDeal");
+if (selectedDeal) {
+    document.getElementById("destination").value = selectedDeal;
+    localStorage.removeItem("selectedDeal");
+}
 // Load saved data
 let bookings = JSON.parse(localStorage.getItem("bookings")) || [];
 
