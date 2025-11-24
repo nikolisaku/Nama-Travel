@@ -157,17 +157,3 @@ input:focus {
 .btn:hover {
     background: #4338ca;
 }
-
-/* FOR PHONE */
-@media (max-width: 768px) {
-    .layout {
-        flex-direction: column;
-    }
-
-    .sidebar {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-}
